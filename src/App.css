@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "GmarketSansLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "GmarketSansLight";
+  background-color: #141414;
+  color: white;
+}
+
+.loader-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.navTop .nav-item {
+  color: white;
+  margin-left: 20px;
+  transition: 0.3s ease-out;
+}
+.navTop .nav-item:hover {
+  opacity: 0.5;
+}
+
+.banner {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 50%, rgba(20, 20, 20, 0.8) 80%, #141414 100%);
+}
+.banner .banner-info {
+  width: 80%;
+  margin: 550px auto auto;
+  z-index: 1;
+}
+.banner .banner-info h1 {
+  font-family: "GmarketSansBold", sans-serif;
+  font-size: 5vw;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+@media (min-width:1400px) {
+  .banner .banner-info h1 {
+    font-size: 72px;
+  }
+}
+@media (max-width:575px) {
+  .banner .banner-info h1 {
+    font-size: 28px;
+  }
+}
+.banner .banner-info p {
+  font-size: 1.5vw;
+  line-height: 1.1;
+  opacity: 0.7;
+}
+@media (min-width:1400px) {
+  .banner .banner-info p {
+    font-size: 21px;
+  }
+}
+@media (max-width:575px) {
+  .banner .banner-info p {
+    font-size: 12px;
+  }
+}
+
+.slide-container {
+  margin: 0 100px;
+}
+@media (max-width:575px) {
+  .slide-container {
+    margin: 20px 50px;
+  }
+}
+.slide-container h2 {
+  font-family: "GmarketSansMedium", sans-serif;
+  margin: 50px 0 20px;
+}
+
+.card-wrap {
+  padding: 0 10px;
+}
+.card-wrap .slide-card {
+  height: 170px;
+  background-size: cover;
+  background-position: center top;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-info {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  padding: 20px;
+  transition: 0.4s ease-in;
+}
+.card-info p span {
+  margin-right: 5px;
+}
+.card-info .card-infoSub {
+  position: absolute;
+  bottom: 20px;
+}
+.card-info .card-infoSub .R-rated {
+  color: darkred;
+  font-family: "GmarketSansMedium", sans-serif;
+  margin-left: 10px;
+}
+.card-info .card-infoSub .G-rated {
+  color: darkgreen;
+  font-family: "GmarketSansMedium", sans-serif;
+  margin-left: 10px;
+}
+
+.slide-card:hover .card-info {
+  opacity: 1;
+}
+
+.footer {
+  margin: 100px 30px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px 0;
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */

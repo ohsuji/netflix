@@ -1,0 +1,72 @@
+== Ready ==
+[1] 외부 Movie API 가져오기 (구글 검색 : movie database)
+-> ★ 1. The Movie Database (TMDB)https://www.themoviedb.org 
+     2. IMDb: Ratings, Reviews, and Where to Watch the Best Movies ...https://www.imdb.com [가장 유명한 사이트]
+[2] 상단 메뉴 More -> API
+
+== React-bootstrap == *
+https://react-bootstrap.github.io/
+설치 : $ npm install react-bootstrap bootstrap
+
+
+== React-Router == *
+https://reactrouter.com/en/main
+https://reactrouter.com/en/v.6.3.0
+설치 : $ yarn add react-router-dom
+
+
+== Redux == *
+https://redux.js.org/
+설치 :$ yarn add redux
+
+
+== React-Redux == *
+https://react-redux.js.org/
+설치 : $ yarn add react-redux
+
+
+== React-Icon == *
+https://react-icons.github.io
+설치 : $ npm install react-icons --save
+
+
+== React-Sass == *
+설치 : $ yarn add sass
+
+
+== Redux-MiddleWear == 
+https://github.com/reduxjs/redux-thunk
+설치 : $ yarn add redux-thunk
+
+
+== Redux-DevTools ==
+크롬 확장자 설치 : https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+https://github.com/zalmoxisus/redux-devtools-extension
+설치 : $ npm install --save redux-devtools-extension
+
+
+== Axios ==
+https://axios-http.com/kr/
+설치 : $ yarn add axios
+
+== React Multi Carousel == 
+https://www.npmjs.com/package/react-multi-carousel
+설치 : $ npm install react-multi-carousel --save
+
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+
+== react-spinners ==
+https://www.npmjs.com/package/react-spinners
+설치 : $ yarn add react-spinners
+
+
+== react youtube ==
+https://www.npmjs.com/package/react-youtube
+설치 : $ yarn add react-youtube
+
+
+== Redux Toolkit ==
+https://redux-toolkit.js.org/introduction/getting-started
+설치 : $ yarn add @reduxjs/toolkit
