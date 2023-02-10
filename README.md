@@ -20,4 +20,4 @@
 <br>
 
 ## 📚 Skills 
-<img src="https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=black"> <img src="https://img.shields.io/badge/CSS3-007ACC?style=for-the-badge&logo=CSS3&logoColor=black"> <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=Bootstrap&logoColor=black"> 
+<img src="https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=black"> <img src="https://img.shields.io/badge/CSS3-007ACC?style=for-the-badge&logo=CSS3&logoColor=black"> <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=Bootstrap&logoColor=black"> <img src="https://img.shields.io/badge/React-61dafb?style=for-the-badge&logo=React&logoColor=black"> 
